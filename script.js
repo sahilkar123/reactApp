@@ -59,8 +59,7 @@ function takeCommand(message){
     }
     else if(message.includes("open instagram")){
         speak("opening instagram")
-        // window.open("https://www.instagram.com/#","_blank")
-        window.open("instagram://")
+        window.open("https://www.instagram.com/#","_blank")
     }
     else if(message.includes("open facebook")){
         speak("opening facebook")
